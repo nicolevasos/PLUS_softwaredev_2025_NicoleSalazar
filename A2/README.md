@@ -1,16 +1,24 @@
-# A2: Instructions
-
-Here are the two conda environment files to recreate:
+# A2: Conda environment
+The goal of this assignment is to recreate two environments from the files located in this repo: https://github.com/augustinh22/geo-software-dev/tree/main/A2
 
 - *software_dev_v1.yml*
 - *software_dev_v2.yml*
 
-They are descriptions of the exact same environment, however, one description is more specific yet operating system (OS) dependent, and the other is OS generic but much less specific (i.e. no versions). Depending on the OS you are working on, you may be able to recreate both.
+## 1. Cloninng the reporsitory and copying folder A2 to personal folder
+```bash
+git clone https://github.com/augustinh22/geo-software-dev.git 
+cp /Users/nicolesalazar/geo-software-dev/A2 /Users/nicolesalazar/Documents/MASTER/CDE/S2/PSD/repos/PLUS_softwaredev_2025_NicoleSalazar
+```
 
-## Task
+## 2. Pushing the new folder to GitHub
+```bash
+git add .
+git commit -m "Copied A2 content from original repo"
+git push origin main
+```
+<img width="982" alt="Screenshot 2025-04-28 at 1 06 59 PM" src="https://github.com/user-attachments/assets/1cf945dd-d9d5-471f-8d91-8f5c74477200" />
 
-Go through the process of re-creating environments:
+## 3. Replicating environments
+### Environment 1 (software_dev_v1.yml)
 
-1) **Acquire** You can fork this repo or just download both files individually.
-2) **Recreate** both environments with conda (or try to do so). You can use the commandline or the navigator (see tutorial document as PDF here, but also available in Blackboard)
-3) **Document** Document the process of recreating the environments in the README.md file associated with your GitHub repsository for this course. Please share screenshots and descriptions of error messages but also of things that worked out.
+### Environment 2 (software_dev_v2.yml)
