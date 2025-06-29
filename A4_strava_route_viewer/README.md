@@ -1,5 +1,5 @@
 # A4 — Modules, functions & imports
-## Strava Geographic Route Viewer"
+## Strava Geographic Route Viewer
 ## Overview
 A4.py is module designed for decoding Strava polylines from an already extracted strava dataset, mapping GPS routes interactively and visualizing topographic profile. It combines geospatial libraries with Plotly Dash to generate an interactive dashboard for route analysis.
 
