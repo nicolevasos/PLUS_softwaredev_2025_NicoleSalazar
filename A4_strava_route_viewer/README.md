@@ -15,26 +15,26 @@ A4.py is module designed for decoding Strava polylines from an already extracted
 ### decode_polyline(polyline_str)
 Decodes a Strava-encoded polyline string into geographic coordinates.
 
-Input: polyline_str (str): Encoded polyline string from Strava
-Output: List of coordinates (latitude, longitude)
+- Input: polyline_str (str): Encoded polyline string from Strava
+- Output: List of coordinates (latitude, longitude)
 
 ### plot_route_map(coords)
 Creates an interactive Folium map displaying the full route with start and end markers.
 
-Input: coords (list): List of (lat, lon) coordinate tuples
-Output: folium.Map: Interactive route map with colored path and markers
+- Input: coords (list): List of (lat, lon) coordinate tuples
+- Output: folium.Map: Interactive route map with colored path and markers
 
 ### plot_elevation_profile(coords)
 Plots an elevation profile along the route using the Open-Elevation API and Matplotlib.
 
-Input: coords (list): List of (lat, lon) coordinate tuples
-Output: Displays a plot inline
+- Input: coords (list): List of (lat, lon) coordinate tuples
+- Output: Displays a plot inline
 
 ### interactive_dashboard(coords)
 Launches a Dash app with synchronized interactive map and elevation profile.
 
-Input: coords (list): List of (lat, lon) coordinate tuples
-Output: Interactive dashboard with hover linking between map and chart
+- Input: coords (list): List of (lat, lon) coordinate tuples
+- Output: Interactive dashboard with hover linking between map and chart
 
 ## File Structure
 ```
