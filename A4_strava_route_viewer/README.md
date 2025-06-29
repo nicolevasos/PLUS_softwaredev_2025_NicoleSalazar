@@ -58,8 +58,8 @@ A4
 
 ---
 ### Author
-Nicole Salazar-Cuellar
-MSc Candidate in Geoinformatics – Practice: Software Development (Python)
-@nicolevasos
+Nicole Salazar-Cuellar <br>
+MSc Candidate in Geoinformatics – Practice: Software Development (Python)<br>
+@nicolevasos<br>
 Date: June 2025
 
